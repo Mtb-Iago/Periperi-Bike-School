@@ -1,12 +1,90 @@
+@media (max-width: 600px) 
+{
 .Login {
-    height: 100vh;
+    overflow: hidden;
+    height: 100%;
     text-align: center;
-    background-color: green;
-    h1{
-       font-size: 20pt;
-    }
-    p {
-        font-size: 18pt;
+    background-color:#11b711;
+    position: relative;
+    width: auto;
+   
+    #presents {
+        margin-top: -19px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        #title {
+            h4 {
+                font-size: 22pt;
+                padding: 0;
+                height: 19px;
+                color: #fffffff0;
+            }
+            h5 {
+                margin-top: -21px;
+                color: #fffffff0;
+            }
+            button {
+                height: 70px;
+                width: 260px;
+                border-radius: 7px;
+                border: none;
+                color: green;
+                font-size: 20pt;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+            button:hover {
+                background-color: #173e17b5;
+                color: #fefffe;
+            }
+        }
+
+        #logo {
+            img {
+                width: 249px;
+                height: 180px;
+                border-radius: 0px;
+                margin-bottom: 35px;
+                margin-top: -30px;
+            }
+
+        }
+
+        #footerPresents {
+
+        }
     }
    
+   #svgCod {
+            margin-top: 108px;
+            height: 383px;
+            #content {
+                background-color:rgb(243, 244, 245);
+                height: auto;
+                margin-top: -67px;
+
+                h3 {
+                    color: #087308;
+                    font-size: 20pt;
+                    height: 10px;
+                    font-size: 21pt;
+                    margin: auto;
+                }
+                h5 {
+                    color: #087308;
+                }
+            }
+        
+   }
+   #noSvg1 {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: -webkit-fill-available;
+   }
+}
 }

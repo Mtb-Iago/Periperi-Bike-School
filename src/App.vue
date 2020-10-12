@@ -16,6 +16,5 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" src="./assets/styleGlobal.scss" scoped />
 
-</style>
